@@ -1,6 +1,6 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
 
 # Virtual Environment
 venv/
@@ -9,13 +9,20 @@ env/
 # VS Code
 .vscode/
 
-# Dataset
-dataset/
+# PyCharm
+.idea/
+
+# Logs
+*.log
+
+# Output Files
+static/output/
 
 # Models
-*.h5
-*.keras
 *.pt
+*.pth
+*.h5
 
-# Training Results
-runs/
+# OS Files
+Thumbs.db
+.DS_Store
